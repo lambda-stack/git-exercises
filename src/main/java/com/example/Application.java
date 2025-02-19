@@ -19,7 +19,8 @@ public class Application {
     public void init()
     {
         Logger log = LoggerFactory.getLogger(Application.class);
-        log.info("Java app starte");
+        // Fixed the typo here: Changed "starte" to "started"
+        log.info("Java app started");
     }
 
     public String getStatus() {
